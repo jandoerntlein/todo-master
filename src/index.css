@@ -1,0 +1,17 @@
+html, body, #root, .radix-themes {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background: hsla(61, 91%, 54%, 1);
+
+background: linear-gradient(135deg, hsla(61, 91%, 54%, 1) 0%, hsla(95, 98%, 41%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(61, 91%, 54%, 1) 0%, hsla(95, 98%, 41%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(61, 91%, 54%, 1) 0%, hsla(95, 98%, 41%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f3f520", endColorstr="#59d102", GradientType=1 );
+}
